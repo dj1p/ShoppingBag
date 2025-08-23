@@ -1,11 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React, { useState, useEffect } from 'react';
+import { ShoppingCart, Plus, Check, X, TrendingUp, TrendingDown, AlertCircle, DollarSign } from 'lucide-react';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// [PASTE THE ENTIRE CODE FROM THE ARTIFACT HERE]
+
+export default GolfShoppingTracker;
